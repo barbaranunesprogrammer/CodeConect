@@ -19,20 +19,19 @@ body {
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: var(--font-family);
-
     display: flex;
     justify-content: center;
     align-items: start;
-
     height: 100vh;
     gap: 27px;
     padding: 50px 0;
+    overflow: hidden;
 }
 
 aside {
     background-color: var(--itens-background-color);
     border-radius: 10px;
-    height: 100%;
+    height: auto;
     padding: 40px 16px;
     text-align: center;
 }

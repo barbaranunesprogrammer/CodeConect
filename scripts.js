@@ -61,3 +61,12 @@ listaTags.addEventListener("click", (evento) => {
     }
 
 })
+const tagsDisponiveis = ["Front-end", "Programação", "DataScience", "Full-Stack", "JavaScript", "Python", "HTML", "CSS", "React", "Node.js", "Banco de Dados", "Git", "GitHub", "API", "Algoritmos", "Desenvolvimento Web"];
+async function verificaTagsDisponiveis(tagTexto) {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(tagsDisponiveis.includes(tagTexto));
+        }, 1000);
+
+    })
+}
